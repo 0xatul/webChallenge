@@ -4,5 +4,3 @@ services:
     build: .
     ports:
      - "8023:80"
-    volumes:
-      - ./src:/var/www/html
