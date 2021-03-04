@@ -14,7 +14,7 @@ The code does not need to be compiled.
 Clone the repo and run the following command
 
 ```shell
-$ docker-compose up --shell
+$ docker-compose up --build
 ```
 
 ## Goal: 
