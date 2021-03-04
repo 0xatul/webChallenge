@@ -11,7 +11,7 @@ The code does not need to be compiled.
 
 ## Launching Docker image
 
-To run the application use the docker-compose configuration file.
+Clone the repo and run the following command
 
 ```shell
 $ docker-compose up --shell
