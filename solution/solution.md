@@ -84,7 +84,7 @@ $WEB_ROOT/upload.php
  32 ?>
  ```
  
- As implemented in [1] Regex isnt the best solution in this case and can easily be bypassed by a malicious actor also `phar` stream wrapper isnt blacklisted either. [2] introduces XXE as LIBXML_NOENT actually resolves the entity than disabliing(developer confusion is real even in present days). we leverage the XXE to invoke the phar polyglot we upload using `ulnerability I`
+ As implemented in [1] Regex isnt the best solution in this case and can easily be bypassed by a malicious actor also `phar` stream wrapper isnt blacklisted either. [2] introduces XXE as LIBXML_NOENT actually resolves the entity than disabling(developer confusion is real even in present days), then we leverage the XXE to invoke the phar polyglot we upload using `vulnerability I`
  
  ### Vulnerability II and a feature(bug? :P)
  $WEB_ROOT/chicken.php:
